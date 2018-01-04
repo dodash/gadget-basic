@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Basic Open Social Gadget</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+	<link rel="stylesheet" href="basicopensocial.css" type="text/css"> 
+    </head>
+    <body>
+        <div id="basic_content">
+        </div>
+        <script>
+		gadgets.util.registerOnLoadHandler(function() {
+		     var contentdiv = document.getElementById("basic_content");
+		     contentdiv.appendChild(document.createTextNode("Hello World"));
+		});
+	</script>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs
+    title="Basic Open Social Gadget 2" author="HCL Technologies"
+    description="A basic open social gadget with href reference.">
+    <Require feature="views" />
+  </ModulePrefs>
+  <Content type="html" href="/basicopensocial.html" view="home,canvas"/>
+</Module>

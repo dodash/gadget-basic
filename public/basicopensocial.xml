@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs
+    title="Basic Open Social Gadget" author="HCL Technologies"
+    description="A basic open social gadget.">
+    <Require feature="views" />
+  </ModulePrefs>
+  <Content type="html" view="home,canvas">
+  <![CDATA[
+    <head>
+        <title>Basic Open Social Gadget</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+		<style>
+		    #basic_content {
+    		    font-family: "Times New Roman", Times, serif;
+    	        font-size: 32px;
+        	    color: red;
+        	}
+		</style>
+		<!-- <link rel="stylesheet" href="basicopensocial.css" type="text/css"> -->
+    </head>
+    <body>
+        <div id="basic_content">
+        </div>
+        <script>
+			gadgets.util.registerOnLoadHandler(function() {
+			     var contentdiv = document.getElementById("basic_content");
+			     contentdiv.appendChild(document.createTextNode("Hello World"));
+			});
+		</script>
+    </body>
+    ]]>
+    </Content>
+</Module>
