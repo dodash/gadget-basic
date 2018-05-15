@@ -1,4 +1,4 @@
-# Basic OpenSocial Gadgets In XML, HTML, CSS, and JS
+# Basic OpenSocial Gadgets In XML, HTML, CSS, and JS  [![Build Status](https://travis-ci.org/dodash/gadget-basic.svg?branch=master)](https://travis-ci.org/dodash/gadget-basic)
 
 This is an example project for creating opensocial gadgets written in XML, HTML, CSS and JS.
 
