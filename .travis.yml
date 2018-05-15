@@ -1,0 +1,7 @@
+sudo: false
+language: node_js
+node_js:
+  - v6
+before_script:
+  - npm install
+script: http-server -p 3000
